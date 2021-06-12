@@ -2,7 +2,10 @@
   "name": "zombies-twitter",
   "private": true,
   "scripts": {
-    "serve": "bin/rails server"
+    "serve": "bin/rails server",
+    "gen:ctrl": "bin/rails generate controller",
+    "gen:model": "bin/rails generate model Article",
+    "migrate": "bin/rails db:migrate"
   },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
