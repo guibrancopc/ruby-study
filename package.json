@@ -1,5 +1,5 @@
 {
-  "name": "zombies-twitter",
+  "name": "ruby-study",
   "private": true,
   "scripts": {
     "serve": "bin/rails server",
