@@ -2,3 +2,6 @@
     <strong><%= comment.commenter %>: </strong>
     <%= comment.body %>
 </p>
+<div>
+    <%= link_to "Remove", [comment.article, comment], method: :delete, data: { confirm: "Are you sure?" } %>
+</div>
