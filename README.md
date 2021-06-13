@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is just some sample code to study Ruby on Rails
 
-Things you may want to cover:
+## Commands
 
-* Ruby version
+### Initial setup
 
-* System dependencies
+```md
+npm install
+```
 
-* Configuration
+### Development Server
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```md
+bin/rails server
+```
