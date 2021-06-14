@@ -8,6 +8,10 @@ class ArticlesController < ApplicationController
 
   def show
     @article = Article.find(params[:id])
+    respond_to do |format|
+      format.html # show.html.erb
+      format.json { render json: @article } # accessible by route /articles/ID_NUMBER.json
+    end
   end
 
   def new
